@@ -444,9 +444,11 @@
             </li>
             </ul>
             </div>
+            <div class="footer-form-wrapper">
+                <p class="subscribe-form-title">Subscribe</p>
             <form class="footer-subscribe-form">
                 <div class="subscribe-form-container">
-                    <label class="subscribe-form-label" for="subscribe-user-email">Subscribe</label>
+                    <label class="subscribe-form-label" for="subscribe-user-email"></label>
                     <input 
                     class="subscribe-form-input" 
                     type="email" 
@@ -455,8 +457,7 @@
                     required
                     placeholder="E-mail"/>
                 </div>
-                <div class="subscribe-email-icon-wrapper">
-                <button class="subscribe-button" type="submit">Subscribe</button>
+                <button class="subscribe-button" type="submit">Subscribe
                 <svg 
                 class="subscribe-email-icon" 
                 width="24" 
@@ -464,14 +465,15 @@
                 aria-label="user subscribe icon">
                     <use href="./images/icons.svg#icon-subscribe"></use>
                 </svg>
-                </div>
+                </button>
             </form>
+            </div>
         </div>
     </footer>
 
     <div class="backdrop is-open">
         <div class="modal">
-            <button type="submit" class="close-btn">
+            <button class="close-btn" type="button">
                 <svg class="close-btn-icon" 
                 width="8" 
                 height="8" 
@@ -484,12 +486,12 @@
             </p>
             <form class="feedback-form">
                 <div class="form-container">
-                    <label class="form-line-name" for="user-name">Name</label>
+                    <label class="form-line-name" for="user_name">Name</label>
                     <div class="input-form-wrapper">
                     <input class="form-input"
                     type="text"
-                    id="user-name" 
-                    name="user_name"
+                    id="user_name" 
+                    name="user-name"
                     pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
                     title="Pavel"
                     required />
@@ -527,30 +529,37 @@
                     </div>
                 </div>
                 <div class="form-container">
-                    <label class="user-review-form-label" for="user-comment">Comment</label>
+                    <label class="user-review-form-label" for="user_comment">Comment</label>
                     <textarea
                     class="review-form-comment" 
-                    name="user_comment" 
-                    id="user-comment" 
+                    name="user-comment" 
+                    id="user_comment" 
                     placeholder="Text input"></textarea>
                 </div>
                 <div class="review-checkbox-container">
                     <input 
-                    class="input-checkbox-form" 
+                    class="input-checkbox-form visually-hidden" 
                     type="checkbox" 
-                    id="user-privacy"
-                    name="user_privacy"
+                    id="user_privacy"
+                    name="user-privacy"
                     value="true"
                     required
                     />
-                    <label class="review-form-checkbox-label" for="user-privacy">
+                    <label class="review-form-checkbox-label" for="user_privacy">
+                        <span class="review-form-checkbox-span">
+                            <svg 
+                            class="white-icon-vector" 
+                            width="10" 
+                            height="8"
+                            aria-label="checkbox icon">
+                                <use href="./images/icons.svg#icon-white-vector"></use>
+                            </svg>
+                        </span>
                         I accept the terms and conditions of the 
                         <a class="review-form-privacy-link" href="">Privacy Policy</a>
                     </label>
                 </div>
-                <div class="button-form-container">
                 <button class="review-form-submit" type="submit">Send</button>
-                </div>
             </form>
         </div>
     </div>
