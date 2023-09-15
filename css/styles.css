@@ -621,6 +621,10 @@ ul {
     margin-bottom: 8px;
 }
 
+.form-container-comment {
+    margin-bottom: 16px; 
+}
+
 .form-input:focus {
     border: 1px solid #4D5AE5;
     outline: transparent;
@@ -742,7 +746,7 @@ ul {
 .review-checkbox-container {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .subscribe-form-title {
