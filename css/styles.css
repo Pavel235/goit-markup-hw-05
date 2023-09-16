@@ -592,7 +592,6 @@ ul {
     line-height: 1.5;
     color: #2E2F42;
     width: 360px;
-    margin-top: 72px;
     margin-bottom: 16px;
 }
 
@@ -698,7 +697,6 @@ ul {
     min-width: 169px;
     height: 56px;
     margin-top: 24px;
-    margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 4px;
@@ -745,7 +743,6 @@ ul {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-    margin-left: 80px;
 }
 
 .subscribe-form-input {
@@ -764,7 +761,6 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    margin-left: 80px;
 }
 
 .subscribe-form-input::placeholder {
@@ -793,7 +789,6 @@ ul {
     color: #FFFFFF;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-left: 24px;
 }
 
 .subscribe-button:hover,
@@ -832,4 +827,8 @@ ul {
     background-color: #404bbf;
     border: none; 
     fill:#F4F4FD;
+}
+
+.footer-form-wrapper {
+    margin-left: auto;
 }
